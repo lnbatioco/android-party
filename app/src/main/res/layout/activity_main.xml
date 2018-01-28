@@ -9,20 +9,35 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/android_party" />
+        android:src="@drawable/android_party"
+        android:scaleType="centerCrop"/>
 
     <TextView
         android:text="Happy Birthday, (name)!"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"/>
+        android:layout_alignParentLeft="true"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#ffffff"
+        android:textSize="36sp"
+        android:paddingTop="16dp"
+        android:paddingRight="24dp"
+        android:paddingLeft="24dp"
+        android:paddingBottom="16dp"/>
 
     <TextView
         android:text="From, (name)"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"/>
+        android:layout_alignParentRight="true"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#ffffff"
+        android:textSize="36sp"
+        android:paddingTop="16dp"
+        android:paddingRight="24dp"
+        android:paddingLeft="24dp"
+        android:paddingBottom="16dp"/>
 
 </RelativeLayout>
